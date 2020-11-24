@@ -20,7 +20,7 @@ const Buttons = (props) => {
     });
   };
 
-  const handleFish = () => {
+  const handleFish = (props) => {
     props.setFish = (oldArrFish) => {
       if (countFish >= 0 && countFish <= 5) {
         countFish--;
