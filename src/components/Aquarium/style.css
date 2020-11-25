@@ -2,7 +2,10 @@
   width: 1100px;
   height: 600px;
   border: 2px solid blue;
-  background-color: aqua;
+  background: url("https://s7d2.scene7.com/is/image/PetSmart/5269046");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   margin: auto;
   overflow: hidden;
   position: relative;

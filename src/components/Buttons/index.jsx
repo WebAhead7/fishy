@@ -1,5 +1,5 @@
 import React from "react";
-
+import { v4 } from "uuid";
 import "./style.css";
 // creating a component(function) for the buttons, we have 2 buttons:
 // 1. feed button-> increases the timer with 20.
@@ -7,26 +7,34 @@ import "./style.css";
 
 // props from the app.js file: timer (var), setTimer, setFish
 // in app.js <Buttons timer={timer}, setTimer={setTimer}, setfish ={setFish}
+const fishImages = ["/images/fish.gif", "/images/fish2.gif"];
+//let countFish = 5; //number of fish user can add
 
-const countFish = 5; //number of fish user can add
 const Buttons = (props) => {
   const handleTimer = () => {
+    props.setTimerFlag(true);
     props.setTimer((oldTimer) => {
-      if (oldTimer >= 80) {
-        return 100;
+      if (oldTimer >= 8) {
+        return 10;
       } else {
-        return oldTimer + 20;
+        return oldTimer + 2;
       }
     });
   };
 
-  const handleFish = (props) => {
-    props.setFish = (oldArrFish) => {
-      if (countFish >= 0 && countFish <= 5) {
-        countFish--;
-        return oldArrFish.push("fish");
-      }
-    };
+  const handleFish = () => {
+    const img = fishImages[0];
+    const id = v4();
+    props.setFish((oldArrFish) => {
+      return oldArrFish.concat({
+        id: id,
+        img: img,
+      });
+    });
+    props.setLevel((oldLevel) => {
+      oldLevel = props.fishArr.length;
+      return oldLevel;
+    });
   };
 
   return (
