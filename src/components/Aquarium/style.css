@@ -12,8 +12,6 @@
   width: 100px;
   animation-name: moveFish;
   animation-timing-function: linear;
-  animation-duration: 5s;
-  animation-fill-mode: forwards;
   animation-iteration-count: infinite;
   position: absolute;
 }
