@@ -1,11 +1,9 @@
-import React from 'react'
-import Timer from './components/Timer'
-import Buttons from './components/Buttons'
-import Aquarium from './components/Aquarium'
+import React from "react";
+import Timer from "./components/Timer";
+import Buttons from "./components/Buttons";
+import Aquarium from "./components/Aquarium";
 
-import './App.css';
-
-
+import "./App.css";
 
 function App() {
   return (
