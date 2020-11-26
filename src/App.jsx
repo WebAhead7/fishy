@@ -4,6 +4,8 @@ import Buttons from "./components/Buttons";
 import Aquarium from "./components/Aquarium";
 import "./App.css";
 
+const gameover = new Audio("/sounds/gameover.mp3");
+
 function App() {
   //const [id, setId] = React.useState(0);
   const [img, setImage] = React.useState("/images/fish.gif");
@@ -46,13 +48,16 @@ function App() {
         </div>
       </div>
     );
-  } else
+  } else {
+    gameover.play();
+
     return (
       <div>
         <h1>Game Over :(</h1>
         <button onClick={() => (window.location = "/")}>Play Again</button>
       </div>
     );
+  }
 }
 
 export default App;

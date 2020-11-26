@@ -50,6 +50,13 @@ const Buttons = (props) => {
       <button className="button" onClick={handleFish}>
         Add Fish
       </button>
+      <button
+        id="gameover"
+        className="button"
+        onClick={() => (window.location = "/")}
+      >
+        Restart
+      </button>
     </div>
   );
 };
