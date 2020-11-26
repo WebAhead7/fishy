@@ -34,7 +34,7 @@ our game is pretty easy to play, we will take you through the steps:
 
 
 <p align = "center">
-  <img src= 'https://github.com/WebAhead7/Asky/blob/main/public/main-website.PNG' width="80%" height="500" />
+  <img src= 'https://github.com/WebAhead7/fishy/blob/main/public/images/screenshotpng' width="80%" height="500" />
 </p>
 
 
