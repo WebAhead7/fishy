@@ -24,8 +24,8 @@ const Timer = ({
         return prevTimer - 1;
       });
     };
-
-    const interval = setInterval(intervalFunc, 1000 - level * 50);
+    
+    const interval = setInterval(intervalFunc, Math.max(1000 - level * 40, 200));
     console.log("popo");
 
     // if (timerFlag) {
