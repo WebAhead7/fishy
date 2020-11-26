@@ -20,8 +20,8 @@ function App() {
 
   if (fish.length !== 0) {
     return (
-      <div>
-        <div>
+      <div className="forAll">
+        <div className="TA">
           <Timer
             timerFlag={timerFlag}
             setTimerFlag={setTimerFlag}
@@ -33,17 +33,15 @@ function App() {
           />
           <Aquarium fishArr={fish} setTimer={setTimer} />
         </div>
-        <div>
-          <Buttons
-            setTimerFlag={setTimerFlag}
-            setTimer={setTimer}
-            setFish={setFish}
-            setImage={setImage}
-            randomFunc={randomNum}
-            setLevel={setLevel}
-            fishArr={fish}
-          />
-        </div>
+        <Buttons
+          setTimerFlag={setTimerFlag}
+          setTimer={setTimer}
+          setFish={setFish}
+          setImage={setImage}
+          randomFunc={randomNum}
+          setLevel={setLevel}
+          fishArr={fish}
+        />
       </div>
     );
   } else

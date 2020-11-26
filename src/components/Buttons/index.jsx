@@ -32,7 +32,7 @@ const Buttons = (props) => {
       });
     });
     props.setLevel((oldLevel) => {
-      oldLevel = props.fishArr.length;
+      oldLevel++;
       return oldLevel;
     });
   };

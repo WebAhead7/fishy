@@ -1,10 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
 .button {
-  width: 70px;
   border-radius: 5px;
   background-color: white;
   color: black;
   border: 2px solid #008cba;
   transition-duration: 0.4s;
+  font-size: 30px;
+  cursor: pointer;
+  padding: 5px;
+  outline: none;
+  font-family: "Anton", sans-serif;
 }
 
 .button:hover {
@@ -16,8 +22,8 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  border: 2px solid black;
   height: 35px;
-  width: 60%;
+  width: 1100px;
   margin: auto;
+  margin-top: 30px;
 }

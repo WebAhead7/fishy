@@ -28,10 +28,7 @@ const Timer = ({
       });
     };
 
-    const interval = setInterval(
-      intervalFunc,
-      1000 - level * fishArr.length * 100
-    );
+    const interval = setInterval(intervalFunc, 1000 - level * 50);
     console.log("popo");
 
     // if (timerFlag) {
