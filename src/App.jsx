@@ -31,17 +31,19 @@ function App() {
             setFish={setFish}
             level={level}
           />
-          <Aquarium fishArr={fish} setTimer={setTimer} />
         </div>
-        <Buttons
-          setTimerFlag={setTimerFlag}
-          setTimer={setTimer}
-          setFish={setFish}
-          setImage={setImage}
-          randomFunc={randomNum}
-          setLevel={setLevel}
-          fishArr={fish}
-        />
+        <div>
+          <Aquarium fishArr={fish} setTimer={setTimer} />
+          <Buttons
+            setTimerFlag={setTimerFlag}
+            setTimer={setTimer}
+            setFish={setFish}
+            setImage={setImage}
+            randomFunc={randomNum}
+            setLevel={setLevel}
+            fishArr={fish}
+          />
+        </div>
       </div>
     );
   } else
