@@ -3,7 +3,7 @@
 <br />
 
 <p align = "center">
-  <img src= 'https://github.com/WebAhead7/Asky/blob/main/public/readmeproject.jpg' width="80%" height="500" />
+  <img src= 'https://github.com/WebAhead7/fishy/blob/main/public/images/WhatsApp%20Image%202020-11-24%20at%205.50.14%20PM%20(3).jpeg' width="80%" height="500" />
 </p>
   <h2 align="center"><a href='https://asky123.herokuapp.com/'/>Try our Website</h2>
 
@@ -37,15 +37,6 @@ our game is pretty easy to play, we will take you through the steps:
   <img src= 'https://github.com/WebAhead7/Asky/blob/main/public/main-website.PNG' width="80%" height="500" />
 </p>
 
-  what you have to do is just to fill a simple form like in the following structure and you are ready to go:
-  
-  <p align = "center">
-  <img src= 'https://github.com/WebAhead7/Asky/blob/main/public/form.PNG' width="80%" height="500" />
-</p>
-
-- adding an answer to an existing post: if you are intrested in aswering someones question, you can add an answer by filling the mini form under the question and your answer will be added automaticly.
-
-We hope you enjoy the facilities we offer :)
 
 
 ## Built With
