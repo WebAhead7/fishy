@@ -5,7 +5,7 @@
 <p align = "center">
   <img src= 'https://github.com/WebAhead7/fishy/blob/main/public/images/WhatsApp%20Image%202020-11-24%20at%205.50.14%20PM%20(3).jpeg' width="80%" height="500" />
 </p>
-  <h2 align="center"><a href='https://asky123.herokuapp.com/'/>Try our Website</h2>
+  <h2 align="center"><a href='https://sharp-hodgkin-44bdaa.netlify.app/'/>Try our Website</h2>
 
 <!-- TABLE OF CONTENTS -->
 
