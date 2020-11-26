@@ -12,13 +12,9 @@ const Timer = ({
 }) => {
   //setInterval
 
-  console.log("HERE IS THE LEVEL:", level);
   React.useEffect(() => {
-    console.log("YYYYYYYYYYYYYY", timer);
-
     const intervalFunc = () => {
       setTimer((prevTimer) => {
-        console.log(prevTimer);
         if (prevTimer === 0) {
           setFish((oldArr) => {
             return oldArr.slice(1, oldArr.length);
@@ -29,7 +25,6 @@ const Timer = ({
     };
 
     const interval = setInterval(intervalFunc, 1000 - level * 50);
-    console.log("popo");
 
     // if (timerFlag) {
     //   timerFlag = false;
@@ -37,7 +32,6 @@ const Timer = ({
     // }
 
     return () => {
-      console.log("mar7aba ");
       clearInterval(interval);
     };
   }, [level]);

@@ -16,12 +16,9 @@ const Aquarium = React.memo((props) => {
     props.setTimer(10);
   }, [props.fishArr]);
 
-  console.log(props);
   return (
     <div className="aquarium">
-      {console.log("uuuuuuuuu", props.fishArr)}
       {props.fishArr.map((elem) => {
-        console.log(elem);
         return (
           <img
             key={elem.id}
