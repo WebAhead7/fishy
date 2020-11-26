@@ -1,12 +1,7 @@
 import React from "react";
 import "./style.css";
 
-const Timer = ({
-  timer,
-  setTimer,
-  setFish,
-  level,
-}) => {
+const Timer = ({ timer, setTimer, setFish, level }) => {
   //setInterval
 
   React.useEffect(() => {
@@ -20,14 +15,11 @@ const Timer = ({
         return prevTimer - 1;
       });
     };
-<<<<<<< HEAD
 
-    const interval = setInterval(intervalFunc, 1000 - level * 50);
-=======
-    
-    const interval = setInterval(intervalFunc, Math.max(1000 - level * 40, 200));
-    console.log("popo");
->>>>>>> 167ae3f71abc62c48cef0b0d414f7657ce1f9195
+    const interval = setInterval(
+      intervalFunc,
+      Math.max(1000 - level * 40, 200)
+    );
 
     // if (timerFlag) {
     //   timerFlag = false;
