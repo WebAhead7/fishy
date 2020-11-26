@@ -4,10 +4,7 @@ import "./style.css";
 const Timer = ({
   timer,
   setTimer,
-  fishArr,
   setFish,
-  timerFlag,
-  setTimerFlag,
   level,
 }) => {
   //setInterval
