@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Fishy
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br />
 
-## Available Scripts
+<p align = "center">
+  <img src= 'https://github.com/WebAhead7/Asky/blob/main/public/readmeproject.jpg' width="80%" height="500" />
+</p>
+  <h2 align="center"><a href='https://asky123.herokuapp.com/'/>Try our Website</h2>
 
-In the project directory, you can run:
+<!-- TABLE OF CONTENTS -->
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [About the Project](#about-the-project)
+- [Getting Started](#getting-started)
+- [Built With](#built-with)
+- [Contact](#contact)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<!-- ABOUT THE PROJECT -->
 
-### `npm test`
+## About The Project
+#### Fishy is a fun game you can play. you will discover lots of features while playing!! 
+##### You can add lots of fish in the aquarium tank, but keep in mind the more fish you add the fast the time interval will run!! so hurry up!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- GETTING STARTED -->
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting Started
+our game is pretty easy to play, we will take you through the steps:
+1. You start with one fish in the beginning.
+2. You can add fish in your tank, the more you add the harder the game gets.
+3. You can feed the fish wich will save you time in the time interval.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+<p align = "center">
+  <img src= 'https://github.com/WebAhead7/Asky/blob/main/public/main-website.PNG' width="80%" height="500" />
+</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+  what you have to do is just to fill a simple form like in the following structure and you are ready to go:
+  
+  <p align = "center">
+  <img src= 'https://github.com/WebAhead7/Asky/blob/main/public/form.PNG' width="80%" height="500" />
+</p>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- adding an answer to an existing post: if you are intrested in aswering someones question, you can add an answer by filling the mini form under the question and your answer will be added automaticly.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+We hope you enjoy the facilities we offer :)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Built With
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- HTML
+- CSS
+- JSX
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<!-- CONTACT -->
 
-### Code Splitting
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Omklthom : [@GitHub](https://github.com/OmklthomAmara)
+- Hala : [@GitHub](https://github.com/halaassaly)
+- Muhammad Awwad : [@GitHub](https://github.com/muhammadawwad9)
+- Rakad : [@GitHub](https://github.com/rakad-kh)
