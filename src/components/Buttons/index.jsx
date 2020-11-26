@@ -1,6 +1,8 @@
 import React from "react";
 import { v4 } from "uuid";
 import "./style.css";
+const feed = new Audio("/sounds/feed.mp3");
+const drop = new Audio("/sounds/drop.mp3");
 // creating a component(function) for the buttons, we have 2 buttons:
 // 1. feed button-> increases the timer with 20.
 // 2. add fish button -> adds an elemnt to the array of fish
@@ -12,6 +14,8 @@ const fishImages = ["/images/fish.gif", "/images/fish2.gif"];
 
 const Buttons = (props) => {
   const handleTimer = () => {
+    feed.play();
+    feed.volume = 0.3;
     props.setTimerFlag(true);
     props.setTimer((oldTimer) => {
       if (oldTimer >= 8) {
@@ -23,6 +27,7 @@ const Buttons = (props) => {
   };
 
   const handleFish = () => {
+    drop.play();
     const img = fishImages[0];
     const id = v4();
     props.setFish((oldArrFish) => {
